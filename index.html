@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ball</title>
+        <script type="text/javascript" src="jquery.js"></script>
+    </head>
+    <script type="text/javascript">
+        
+        var result=100;
+        function showAns()
+        {
+            for (i=1;i<=5;i++)
+             {
+               result=result/2; 
+             }
+             $("#answer").append(result+" m");
+        }
+        </script>
+        <button onclick = "showAns()">偷看答案</button>
+        <div id="answer">有一個球從 100 公尺處落下，每次落地都反彈至原高度的二分之一，請問它第五次落地後，會反彈到多高?<br></span>
+    </body>
+</html>
